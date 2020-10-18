@@ -9,7 +9,7 @@ class Student:
     self.exercises = exercises
   
 
-  def Linear_search_algorithms_1(list: List, target):
+ def Linear_search_algorithms_1(list: List, target):
     for n in range(len(list)):
       if target == list[n]:
         return n
